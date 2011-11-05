@@ -33,10 +33,20 @@ Bundle 'msanders/snipmate.vim'
 " Python options
 " --------------
 
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+
+" Use the below highlight group when displaying bad whitespace is desired.
+highlight BadWhitespace ctermbg=red guibg=red
+
+" Display tabs at the beginning of a line in Python mode as bad.
+au BufRead,BufNewFile *.py,*.pyw match BadWhitespace /^\t\+/
+" Make trailing whitespace be flagged as bad.
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 " General options
 " ---------------
@@ -97,3 +107,13 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" mappings for NERDTree
+noremap  <F2> :NERDTreeToggle<cr>
+inoremap <F2> <esc>:NERDTreeToggle<cr>
+
+au Filetype nerdtree setlocal nolist
+
+let NERDTreeHighlightCursorline=1
+let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$']
+
