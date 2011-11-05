@@ -13,7 +13,9 @@ au FocusLost * :wa		        " save on losing focus
 
 " Vundle setup
 " ------------
- 
+
+" first: git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
 set rtp+=~/.vim/bundle/vundle/ 	" what does this do?
 call vundle#rc()		        " what does this do?
 
