@@ -1,0 +1,8 @@
+[user]
+	name = Maarten Hermans
+	email = maarten.hermans@gmail.com
+
+[core]
+    pager = cat
+    editor = vim
+    excludesfile = /home/mhermans/.gitignore
