@@ -6,4 +6,6 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-alias t='todo.sh'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
