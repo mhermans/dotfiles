@@ -11,3 +11,4 @@ alias la='ls -A'
 alias l='ls -CF'
 
 alias t='todo.sh'
+alias gf='echo "girlfriend!"'
