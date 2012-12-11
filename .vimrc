@@ -29,6 +29,8 @@ Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'sjl/gundo.vim'
 Bundle 'msanders/snipmate.vim'
+Bundle 'davidhalter/jedi-vim'
+Bundle 'ervandew/supertab'
 "Bundle 'tomtom/tcomment_vim'
 " Bundle 'kevinw/pyflakes-vim'
 
@@ -74,7 +76,7 @@ set undofile
 set wrap
 set textwidth=79
 set formatoptions=qrn1
-set colorcolumn=85
+"set colorcolumn=85
 
 
 " Remapping
