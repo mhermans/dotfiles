@@ -12,3 +12,4 @@ alias l='ls -CF'
 
 alias t='todo.sh'
 alias gf='echo "girlfriend!"'
+alias trr='transmission-remote 192.168.1.173:9091'

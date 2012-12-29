@@ -10,4 +10,4 @@
 [color]
     ui = auto
 [credential]
-	helper = cache --timeout 36000
+	helper = cache --timeout 3600
