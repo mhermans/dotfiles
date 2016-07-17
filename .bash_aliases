@@ -1,5 +1,5 @@
-# executed by .bashrc?
-# contains aliases and (atm) custom env
+# .bash_profile - contains aliases and (atm) custom env
+# sourced through .bashrc
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
@@ -10,10 +10,11 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-alias t='todo.sh'
-alias gf='(python $HOME/projects/scratch/gf-mail.py &)'
-alias trr='transmission-remote 192.168.1.173:9091'
-
+# Force tmux to assume the terminal supports 256 colours
 alias tmux="$HOME/bin/tmux -2"
 
+# start dockerized Rstudio environment
 alias rstudio-docker="docker run -d -v $HOME/var/data:/home/rstudio/data -v $HOME/projects/:/home/rstudio/projects/ -p 8787:8787 mhermans/rworkenv"
+
+# shortcut for build-in virtualenv, python3 not yet default 
+alias virtualenv3='python3 -m virtualenv -p python3'
