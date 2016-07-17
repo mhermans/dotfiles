@@ -15,3 +15,5 @@ alias gf='(python $HOME/projects/scratch/gf-mail.py &)'
 alias trr='transmission-remote 192.168.1.173:9091'
 
 alias tmux="$HOME/bin/tmux -2"
+
+alias rstudio-docker="docker run -d -v $HOME/var/data:/home/rstudio/data -v $HOME/projects/:/home/rstudio/projects/ -p 8787:8787 mhermans/rworkenv"
