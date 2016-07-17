@@ -113,7 +113,7 @@ Bundle 'christoomey/vim-tmux-navigator'
 "Bundle 'msanders/snipmate.vim'
 "Bundle 'ervandew/supertab'
 "Bundle 'vim-pandoc/vim-pandoc'
-"Bundle 'plasticboy/vim-markdown'
+Bundle 'plasticboy/vim-markdown'
 "Bundle 'airblade/vim-gitgutter'
 "Bundle 'chrisbra/csv.vim'
 

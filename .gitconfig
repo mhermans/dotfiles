@@ -1,6 +1,6 @@
 [user]
 	name = Maarten Hermans
-	email = maarten.hermans@gmail.com
+	email = maarten@mhermans.net
 
 [core]
     pager = cat
@@ -11,3 +11,5 @@
     ui = auto
 [credential]
 	helper = cache --timeout 3600
+[push]
+	default = simple
