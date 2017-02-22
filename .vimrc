@@ -82,7 +82,7 @@ inoremap <right> <nop>
 
 syntax on                       " Enable syntax highlighting
 set background=dark
-colorscheme monokai
+colorscheme molokai
 
 " Clear search highlights 
 " http://www.vimbits.com/bits/21
@@ -94,7 +94,7 @@ noremap <silent><Leader>/ :nohls<CR>
 
 " first: git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
-set rtp+=~/.vim/bundle/vundle/ 	" what does this do?
+set rtp+=~/.vim/bundle/Vundle.vim/ 	" what does this do?
 call vundle#rc()		" what does this do?
 
 " let Vundle manage Vundle, required! 
