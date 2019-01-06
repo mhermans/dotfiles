@@ -10,6 +10,6 @@
 [color]
     ui = auto
 [credential]
-	helper = cache
+	helper = cache --timeout=1800
 [push]
 	default = simple
