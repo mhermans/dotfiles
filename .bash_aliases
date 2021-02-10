@@ -29,3 +29,4 @@ alias virtualenv3='python3 -m virtualenv -p python3'
 alias rstudio-versioned="docker run -d -v $HOME/var:/home/rstudio/var -v $HOME/projects/:/home/rstudio/projects/ -p 8787:8787 mhermans/rversioned:0.1.2"
 alias rstudio-blogenv="docker run -d -v $HOME/var:/home/rstudio/var -v $HOME/projects/:/home/rstudio/projects/ -p 8787:8787 mhermans/blogenv:0.0.1"
 alias rstudio-latest="docker run -d -e PASSWORD=mhermans -v $HOME/var:/home/rstudio/var -v $HOME/projects/:/home/rstudio/projects/ -p 8787:8787 mhermans/rlatest:latest"
+alias rstudio-bleeding="docker run -d -e PASSWORD=mhermans -v $HOME/var:/home/rstudio/var -v $HOME/projects/:/home/rstudio/projects/ -v /mnt/datapartition/var/data/datadir_hiva:/mnt/datapartition/var/data/datadir_hiva  -p 9797:8787 mhermans/rbleeding:latest"
